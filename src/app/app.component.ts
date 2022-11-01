@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'initium_tienda_de_cafe';
+
+  logo = '../assets/Logo.png'
 }
