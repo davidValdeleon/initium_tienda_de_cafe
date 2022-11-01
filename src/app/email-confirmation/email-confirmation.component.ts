@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmailConfirmationComponent implements OnInit {
 
+  title = 'initium_tienda_de_cafe';
+
+  logo = '../assets/Logo.png'
+  emailIcon = '../assets/iconos/email.png'
+
   constructor() { }
 
   ngOnInit(): void {

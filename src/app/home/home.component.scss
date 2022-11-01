@@ -9,7 +9,6 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 30rem;
-  justify-items: center;
 }
 
 .logo {
@@ -39,37 +38,6 @@
   flex-direction: column;
 }
 
-.label {
-  font-size: var(--sm);
-  font-weight: bold;
-  margin-bottom: 0.4rem;
-}
-
-.input {
-  background-color: var( --text-input-field);
-  border: none;
-  border-radius: 0.8rem;
-  height: 3.2rem;
-  font-size: var(--md);
-  padding: 0.6rem;
-  margin-bottom: 1.2rem;
-}
-
-.email-image {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  background-color: var(--text-input-field);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2.4rem;
-}
-
-.email-image img {
-  width: 7rem;
-}
-
 .primary-button {
   background-color: var(--hospital-green);
   border-radius: 0.8rem;
@@ -86,21 +54,6 @@
   margin-top: 1.4rem;
   margin-bottom: 3rem;
 }
-
-.resend{
-  font-size: var(--sm);
-}
-
-.resend span{
-  color: var(--very-light-pink);
-}
-
-.resend a{
-  color: var(--hospital-green);
-  text-decoration: none;
-}
-
-
 
 @media (max-width: 640px){
   .logo {
