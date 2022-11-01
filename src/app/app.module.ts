@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { EmailConfirmationComponent } from './email-confirmation/email-confirmation.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { MyAccountComponent } from './my-account/my-account.component';
 
 const appRoutes: Routes=[
 
   {path:'', component:HomeComponent},
-  {path:'email-confirmation', component:EmailConfirmationComponent},
-  {path:'login', component:LoginComponent}
+  {path:'emailconfirmation', component:EmailConfirmationComponent},
+  {path:'login', component:LoginComponent},
+  {path:'myaccount', component:MyAccountComponent}
 ];
 
 @NgModule({
@@ -20,7 +22,8 @@ const appRoutes: Routes=[
     AppComponent,
     EmailConfirmationComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    MyAccountComponent
   ],
   imports: [
     BrowserModule,
