@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  title = 'initium_tienda_de_cafe';
+
+  logo = '../assets/Logo.png'
+
+
   constructor() { }
 
   ngOnInit(): void {

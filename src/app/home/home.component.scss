@@ -38,6 +38,22 @@
   flex-direction: column;
 }
 
+.label {
+  font-size: var(--sm);
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.input {
+  background-color: var( --text-input-field);
+  border: none;
+  border-radius: 0.8rem;
+  height: 3.2rem;
+  font-size: var(--md);
+  padding: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
 .primary-button {
   background-color: var(--hospital-green);
   border-radius: 0.8rem;
