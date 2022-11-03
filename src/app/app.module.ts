@@ -19,7 +19,8 @@ const appRoutes: Routes=[
   {path:'login', component:LoginComponent},
   {path:'myaccount', component:MyAccountComponent},
   {path:'editaccount', component:EditaccountComponent},
-  {path:'resetPassword', component:ResetPasswordComponent}
+  {path:'resetPassword', component:ResetPasswordComponent},
+  {path: 'menudesplegable', component:MenuDesplegableComponent}
 ];
 
 @NgModule({
