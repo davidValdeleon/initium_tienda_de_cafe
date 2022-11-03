@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { MyAccountComponent } from './my-account/my-account.component';
 import { EditaccountComponent } from './editaccount/editaccount.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { MenuDesplegableComponent } from './menu-desplegable/menu-desplegable.component';
 
 const appRoutes: Routes=[
 
@@ -29,7 +30,8 @@ const appRoutes: Routes=[
     LoginComponent,
     MyAccountComponent,
     EditaccountComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    MenuDesplegableComponent
   ],
   imports: [
     BrowserModule,
