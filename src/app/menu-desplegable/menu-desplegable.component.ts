@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuDesplegableComponent implements OnInit {
 
+  title = 'initium_tienda_de_cafe';
+
   constructor() { }
 
   ngOnInit(): void {
