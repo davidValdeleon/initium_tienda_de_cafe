@@ -15,19 +15,26 @@
   font-size: var(--md);
 }
 
-.category {
+.mobile-menu a {
   text-decoration: none;
   color: var(--black);
   font-weight: bold;
-  margin-bottom: 2.4rem;
+  // margin-bottom: 2.4rem;
 }
+
+// .category {
+//   text-decoration: none;
+//   color: var(--black);
+//   font-weight: bold;
+//   margin-bottom: 2.4rem;
+// }
 
 .mobile-menu ul {
   margin: 2.4rem 0 0;
+  list-style: none;
 }
 
-.mobile-menu li {
-  list-style: none;
+.mobile-menu ul li {
   margin: 2.4rem 0 0;
 }
 
