@@ -33,11 +33,11 @@
 }
 
 .email {
-  font-weight: 300px !important;
+  font-size: var(--sm);
+  font-weight: 300px;
   text-decoration: none;
   color: var(--black);
   margin-bottom: 2.4rem;
-  font-size: var(--sm);
 }
 
 // #email {
