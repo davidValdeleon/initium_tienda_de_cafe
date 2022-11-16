@@ -12,6 +12,7 @@ import { EditaccountComponent } from './editaccount/editaccount.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { MenuDesplegableComponent } from './menu-desplegable/menu-desplegable.component';
 import { MobileMenuDesplegableComponent } from './mobile-menu-desplegable/mobile-menu-desplegable.component';
+import { MiOrdenComponent } from './mi-orden/mi-orden.component';
 
 const appRoutes: Routes=[
 
@@ -22,7 +23,8 @@ const appRoutes: Routes=[
   {path:'editaccount', component:EditaccountComponent},
   {path:'resetPassword', component:ResetPasswordComponent},
   {path: 'menudesplegable', component:MenuDesplegableComponent},
-  {path: 'mobilemenudesplegable', component:MobileMenuDesplegableComponent}
+  {path: 'mobilemenudesplegable', component:MobileMenuDesplegableComponent},
+  {path: 'miorden', component:MiOrdenComponent}
 ];
 
 @NgModule({
@@ -35,7 +37,8 @@ const appRoutes: Routes=[
     EditaccountComponent,
     ResetPasswordComponent,
     MenuDesplegableComponent,
-    MobileMenuDesplegableComponent
+    MobileMenuDesplegableComponent,
+    MiOrdenComponent
   ],
   imports: [
     BrowserModule,
