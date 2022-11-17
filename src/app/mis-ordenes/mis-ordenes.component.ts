@@ -9,7 +9,7 @@ export class MisOrdenesComponent implements OnInit {
 
   producto = '../../assets/cafe340gr.png';
   logo = '../assets/Logo.png';
-  arrowRight = '../../assets/iconos/right-arrow.png'
+  arrowRight = '../../assets/iconos/right-arrow.png';
 
   constructor() { }
 

@@ -15,6 +15,7 @@ import { MobileMenuDesplegableComponent } from './mobile-menu-desplegable/mobile
 import { MiOrdenComponent } from './mi-orden/mi-orden.component';
 import { MisOrdenesComponent } from './mis-ordenes/mis-ordenes.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { DetalleDelProductoComponent } from './detalle-del-producto/detalle-del-producto.component';
 
 const appRoutes: Routes=[
 
@@ -28,7 +29,8 @@ const appRoutes: Routes=[
   {path: 'mobilemenudesplegable', component:MobileMenuDesplegableComponent},
   {path: 'miorden', component:MiOrdenComponent},
   {path: 'misordenes', component:MisOrdenesComponent},
-  {path: 'navbar', component:NavbarComponent}
+  {path: 'navbar', component:NavbarComponent},
+  {path: 'detalledelproducto', component:DetalleDelProductoComponent}
 
 ];
 
@@ -45,7 +47,8 @@ const appRoutes: Routes=[
     MobileMenuDesplegableComponent,
     MiOrdenComponent,
     MisOrdenesComponent,
-    NavbarComponent
+    NavbarComponent,
+    DetalleDelProductoComponent
   ],
   imports: [
     BrowserModule,
