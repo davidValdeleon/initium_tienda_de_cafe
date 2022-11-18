@@ -16,6 +16,7 @@ import { MiOrdenComponent } from './mi-orden/mi-orden.component';
 import { MisOrdenesComponent } from './mis-ordenes/mis-ordenes.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DetalleDelProductoComponent } from './detalle-del-producto/detalle-del-producto.component';
+import { CarritoDeComprasComponent } from './carrito-de-compras/carrito-de-compras.component';
 
 const appRoutes: Routes=[
 
@@ -30,7 +31,8 @@ const appRoutes: Routes=[
   {path: 'miorden', component:MiOrdenComponent},
   {path: 'misordenes', component:MisOrdenesComponent},
   {path: 'navbar', component:NavbarComponent},
-  {path: 'detalledelproducto', component:DetalleDelProductoComponent}
+  {path: 'detalledelproducto', component:DetalleDelProductoComponent},
+  {path: 'carritodecompras', component:CarritoDeComprasComponent}
 
 ];
 
@@ -48,7 +50,8 @@ const appRoutes: Routes=[
     MiOrdenComponent,
     MisOrdenesComponent,
     NavbarComponent,
-    DetalleDelProductoComponent
+    DetalleDelProductoComponent,
+    CarritoDeComprasComponent
   ],
   imports: [
     BrowserModule,
